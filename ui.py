@@ -9,6 +9,7 @@
 
 from PySide2 import QtCore, QtGui, QtWidgets
 
+from icon import start
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow: QtWidgets.QMainWindow):
@@ -16,9 +17,11 @@ class Ui_MainWindow(object):
         MainWindow.setEnabled(True)
         MainWindow.resize(280, 80)
 
+        start()
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icon.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icon.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
+
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")

@@ -110,6 +110,12 @@ if __name__ == '__main__':
 
   mainwindow.show()
 
-  sys_exit(app.exec_())
+  ex = app.exec_()
+
+  from icon import stop
+
+  stop()
+
+  sys_exit(ex)
 
 
