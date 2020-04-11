@@ -32,12 +32,14 @@ class MainWindow(qtw.QMainWindow):
 
     self.path = ''
 
+    self.last_path = '.'
+
   def browseButton(self):
 
     self.path, _ = qtw.QFileDialog.getOpenFileName(
       self,
       'Browse .XSIG',
-      '.',
+      self.last_path,
       '.XSIG File (*.xsig)'
     )
 
@@ -70,8 +72,8 @@ class MainWindow(qtw.QMainWindow):
           xmlFile = et.parse(xmlPath)
           xmlDoc = xmlFile.getroot()
           
-          documento = xmlDoc[3][0][0]
-          pdfFilename = documento[0].text + '.' + documento[1].text.lower()
+          documento = xmlDoc[-1][0][0]
+          pdfFilename = self.path.split('/')[-1].split('.')[0] + '.pdf'
           
           with open(move_path(xmlPath, pdfFilename), 'wb') as saveFile: saveFile.write(b64decode(documento[3].text.encode()))
 
@@ -92,6 +94,8 @@ class MainWindow(qtw.QMainWindow):
       msg.exec_()
 
     else:
+      self.last_path = '/'.join(self.path.split('/')[:-1])
+
       msg = qtw.QMessageBox.about(
         self,
         'Extracted successfully',

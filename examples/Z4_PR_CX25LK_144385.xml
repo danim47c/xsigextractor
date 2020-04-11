@@ -1,0 +1,101 @@
+<Datos_Emision_Estaciones_Radioelectricas>
+	<Datos_Certificacion>
+		<Tipo_Certificacion>A</Tipo_Certificacion>
+		<Tipo_Solicitud>ALT</Tipo_Solicitud>
+		<Titular_Nombre_Razon_Social>VODAFONE</Titular_Nombre_Razon_Social><Expediente_Concesional>DGZZ-1300343</Expediente_Concesional>
+		<Datos_Visado>
+			<Numero_Visado>P20012173</Numero_Visado>
+			<Fecha_Visado>2020-04-01</Fecha_Visado>
+			<Numero_Colegiado>15559</Numero_Colegiado>
+			<Colegio_Profesional>COIT</Colegio_Profesional>
+		</Datos_Visado>
+		<Tecnico_Competente>
+			<NIF_NIE>34990455A</NIF_NIE>
+			<Nombre>CRISTINA</Nombre>
+			<Apellido1>CASTELO</Apellido1>
+			<Apellido2>VILLANUEVA</Apellido2>
+		</Tecnico_Competente>
+	</Datos_Certificacion>
+	<Estacion_Certificada>
+		<Datos_Emplazamiento>
+			<Codigo_Emplazamiento>144385</Codigo_Emplazamiento>
+			<Emplazamiento_Compartido>SI</Emplazamiento_Compartido>
+			<Cod_INE_Termino_Municipal>0755</Cod_INE_Termino_Municipal>
+			<Cod_INE_Provincia>15</Cod_INE_Provincia>
+			<Latitud>43N2157,69</Latitud>
+			<Longitud>08W1754,01</Longitud>
+			<Datum>ETRS89</Datum>
+			<Cota_Terreno_Sobre_Nivel_Mar>128</Cota_Terreno_Sobre_Nivel_Mar>
+			<Calle>
+				<Poblacion>SADA</Poblacion>
+				<Tipo_Via>VP</Tipo_Via>
+				<Nombre_Via>POLIGONO 5, PARCELA 988</Nombre_Via>
+				<Numero_Portal>SN</Numero_Portal>
+			<Situacion>MONTE DAS BRA&#209;AS</Situacion></Calle>
+		</Datos_Emplazamiento>
+		<Datos_Estacion>
+			<Codigo_Estacion>CX25LK</Codigo_Estacion>
+			<Tipo_Sistema>LTE</Tipo_Sistema>
+			<Tipo_Estacion>ER5</Tipo_Estacion>
+			<Entorno_Sensible>NO</Entorno_Sensible>
+			<Num_Sectores_Interiores>0</Num_Sectores_Interiores>
+			<Num_Sectores_Exteriores>3</Num_Sectores_Exteriores>
+			<Sectores>
+				<Sector>
+					<Tipo_Potencia_Radiada>PIRE</Tipo_Potencia_Radiada>
+					<Potencia_Maxima_Total>7943.28</Potencia_Maxima_Total>
+					<Unidad_Potencia_Maxima_Total>W</Unidad_Potencia_Maxima_Total>
+					<Localizacion_Antena>EXTERIOR</Localizacion_Antena>
+					<Tipo_Antena>D</Tipo_Antena><Polarizacion>M</Polarizacion><Altura_Antena_Sobre_Terreno>37.8</Altura_Antena_Sobre_Terreno><Inclinacion_Haz_Sobre_Horizontal>6</Inclinacion_Haz_Sobre_Horizontal><Antena_Directiva>
+						<Tipo_Ganancia>ISO</Tipo_Ganancia>
+						<Ganancia_Antena>17</Ganancia_Antena>
+						<Apertura_Horizontal_Haz>65</Apertura_Horizontal_Haz>
+						<Apertura_Vertical_Haz>6.8</Apertura_Vertical_Haz>
+						<Acimut_Maxima_Radiacion>110</Acimut_Maxima_Radiacion>
+						<Nivel_Lobulos_Secundarios>17</Nivel_Lobulos_Secundarios>
+					</Antena_Directiva>
+					
+				</Sector>
+			<Sector>
+					<Tipo_Potencia_Radiada>PIRE</Tipo_Potencia_Radiada>
+					<Potencia_Maxima_Total>7943.28</Potencia_Maxima_Total>
+					<Unidad_Potencia_Maxima_Total>W</Unidad_Potencia_Maxima_Total>
+					<Localizacion_Antena>EXTERIOR</Localizacion_Antena>
+					<Tipo_Antena>D</Tipo_Antena><Polarizacion>M</Polarizacion><Altura_Antena_Sobre_Terreno>37.8</Altura_Antena_Sobre_Terreno><Inclinacion_Haz_Sobre_Horizontal>6</Inclinacion_Haz_Sobre_Horizontal><Antena_Directiva>
+						<Tipo_Ganancia>ISO</Tipo_Ganancia>
+						<Ganancia_Antena>17</Ganancia_Antena>
+						<Apertura_Horizontal_Haz>65</Apertura_Horizontal_Haz>
+						<Apertura_Vertical_Haz>6.8</Apertura_Vertical_Haz>
+						<Acimut_Maxima_Radiacion>210</Acimut_Maxima_Radiacion>
+						<Nivel_Lobulos_Secundarios>17</Nivel_Lobulos_Secundarios>
+					</Antena_Directiva>
+					
+				</Sector><Sector>
+					<Tipo_Potencia_Radiada>PIRE</Tipo_Potencia_Radiada>
+					<Potencia_Maxima_Total>7943.28</Potencia_Maxima_Total>
+					<Unidad_Potencia_Maxima_Total>W</Unidad_Potencia_Maxima_Total>
+					<Localizacion_Antena>EXTERIOR</Localizacion_Antena>
+					<Tipo_Antena>D</Tipo_Antena><Polarizacion>M</Polarizacion><Altura_Antena_Sobre_Terreno>37.8</Altura_Antena_Sobre_Terreno><Inclinacion_Haz_Sobre_Horizontal>4</Inclinacion_Haz_Sobre_Horizontal><Antena_Directiva>
+						<Tipo_Ganancia>ISO</Tipo_Ganancia>
+						<Ganancia_Antena>17</Ganancia_Antena>
+						<Apertura_Horizontal_Haz>65</Apertura_Horizontal_Haz>
+						<Apertura_Vertical_Haz>6.8</Apertura_Vertical_Haz>
+						<Acimut_Maxima_Radiacion>340</Acimut_Maxima_Radiacion>
+						<Nivel_Lobulos_Secundarios>17</Nivel_Lobulos_Secundarios>
+					</Antena_Directiva>
+					
+				</Sector></Sectores>
+		</Datos_Estacion>
+	</Estacion_Certificada>
+	
+	<Documentos>
+		<Informacion_Adicional>
+			<Documento>
+				<Nombre>Documento_PDF_Embebido</Nombre>
+				<Extension>PDF</Extension>
+				<Codificacion>BASE64</Codificacion>
+				<Contenido>Extracted to Z4_PR_CX25LK_144385.pdf</Contenido>
+			</Documento>
+		</Informacion_Adicional>
+	</Documentos>
+</Datos_Emision_Estaciones_Radioelectricas>
