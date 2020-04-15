@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['xsigextractor.py'],
-             pathex=['C:\\Users\\dmate\\Desktop\\Programacion\\xsigextractor'],
+             pathex=['C:\\Users\\dmate\\Desktop\\Drive\\Programacion\\AaWork\\xsigextractor'],
              binaries=[],
              datas=[],
              hiddenimports=[],
